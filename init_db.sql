@@ -1,0 +1,5 @@
+CREATE DATABASE alar_points;
+
+CREATE USER alar_test WITH ENCRYPTED PASSWORD 'password';
+
+GRANT ALL PRIVILEGES ON DATABASE alar_points TO alar_test;
